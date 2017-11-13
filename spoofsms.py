@@ -1,7 +1,7 @@
 from clockwork import clockwork
 import sys
 
-api = clockwork.API('a580d09c68387a80a5e6408d502264569cdb4ba0')
+api = clockwork.API('')
 
 message = clockwork.SMS(
     to = sys.argv[1],
