@@ -11,7 +11,7 @@ message = clockwork.SMS(
 response = api.send(message)
 
 if response.success:
-    print (response.id)
+    print "Text has been sent ;)"
 else:
     print (response.error_code)
     print (response.error_message)
